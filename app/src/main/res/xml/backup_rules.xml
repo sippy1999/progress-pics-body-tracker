@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+   Sample backup rules file; uncomment and customize as needed.
+   See https://developer.android.com/guide/topics/data/keyvaluebackup for details.
+   This file is used by BackupAgent, if BackupAgent is enabled, to determine what type of data
+   gets backed up.
+   See https://developer.android.com/guide/topics/data/autobackup for details.
+-->
+<full-backup-content>
+    <!--
+   <include domain="sharedpref" path="." />
+   <exclude domain="sharedpref" path="device.xml" />
+-->
+</full-backup-content>

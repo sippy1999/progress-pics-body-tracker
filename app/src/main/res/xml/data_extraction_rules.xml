@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+   Sample data extraction rules file; uncomment and customize as needed.
+   This file is used by BackupAgent, if BackupAgent is enabled, to determine what type of data
+   gets backed up.
+   See https://developer.android.com/guide/topics/data/autobackup for details.
+   This file is used by BackupAgent, if BackupAgent is enabled, to determine what type of data
+   gets backed up.
+   See https://developer.android.com/guide/topics/data/autobackup for details.
+-->
+<data-extraction-rules>
+    <domain-config>
+        <domain name="shared_pref" />
+        <!--
+        <exclude
+            domain="sharedpref"
+            path="protected_shared_prefs.xml" />
+        -->
+    </domain-config>
+</data-extraction-rules>
